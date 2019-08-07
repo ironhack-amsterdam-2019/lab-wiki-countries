@@ -1,0 +1,30 @@
+html, body, #root {
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.App > footer,
+.App > nav {
+  height: 5%;
+}
+
+.App > div {
+  height: 90%;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.home {
+  text-align: center;
+  padding: 10px;
+}

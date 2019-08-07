@@ -1,0 +1,17 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  background-color: lightblue;
+}
+
+nav > div {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav > div a {
+  text-decoration: none;
+}
